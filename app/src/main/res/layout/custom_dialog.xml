@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tv Show Detail"
+            android:textSize="@dimen/text_size_20"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:paddingTop="@dimen/padding_8"
+            android:paddingStart="@dimen/padding_16"
+            android:paddingEnd="@dimen/padding_16"/>
+
+        <TextView
+            android:id="@+id/tvShowName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/colorText"
+            android:paddingTop="@dimen/padding_16"
+            android:paddingStart="@dimen/padding_16"
+            android:paddingEnd="@dimen/padding_16"/>
+
+        <TextView
+            android:id="@+id/tvShowType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size_16"
+            android:paddingTop="@dimen/padding_8"
+            android:paddingStart="@dimen/padding_16"
+            android:paddingEnd="@dimen/padding_16"/>
+
+        <TextView
+            android:id="@+id/tvShowLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_size_16"
+            android:paddingTop="@dimen/padding_8"
+            android:paddingStart="@dimen/padding_16"
+            android:paddingEnd="@dimen/padding_16"/>
+
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:textColor="@color/white"
+            android:text="OK"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
